@@ -1,0 +1,35 @@
+
+
+
+.carousel *{
+    
+    
+
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+@media only screen and (max-width:1200px)
+{
+    .carousel{
+        height: 40vh;
+    }
+
+    .carousel .slider-image img{
+        margin: 10vh auto;
+        width: 50vw;
+    }
+    
+}
+
+@media only screen and (max-width:650px)
+{
+    .carousel{
+        height: 70vh;
+    }
+
+    
+}
