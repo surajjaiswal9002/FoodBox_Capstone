@@ -1,6 +1,7 @@
 # Food Box Capstone Project
 @Author: Suraj Jaiswal
 Important Points:
+
         1. Developed a full-stack food delivery web application using Spring Boot, JPA, React, and Redux, providing seamless user experience with features like registration,         login, payment gateway integration, and dynamic data management.
 
         2. Implemented an admin portal allowing for the management of food items, including adding, editing, and disabling items, while maintaining business-critical                 functions such as updating prices and offers.
