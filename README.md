@@ -1,72 +1,55 @@
-# Food Box Capstone Project
-@Author: Suraj Jaiswal
-Important Points:
+Food Box – Full Stack Capstone Project
+Author: Suraj Jaiswal
 
-        1. Developed a full-stack food delivery web application using Spring Boot, JPA, React, and Redux, providing seamless user experience with features like registration,         login, payment gateway integration, and dynamic data management.
+Project Overview
+Developed a full-stack online food delivery web application for Food Box, a Bengaluru-based restaurant chain aiming to regain its market share by establishing a direct online ordering platform, bypassing third-party aggregators like Swiggy and Foodpanda.
 
-        2. Implemented an admin portal allowing for the management of food items, including adding, editing, and disabling items, while maintaining business-critical                 functions such as updating prices and offers.
+Key Responsibilities & Deliverables
+1. Application Development
+    * Built a seamless, responsive web application using Spring Boot, JPA, React.js, and Redux.
+    * Implemented core features including:
+        * User registration and authentication
+        * Secure payment gateway integration
+        * Dynamic data management for food items
+2. Admin Portal
+    * Developed a dedicated admin interface enabling:
+        * Management of food items (add, edit, disable)
+        * Updating prices, cuisines, descriptions, and offers
+        * Ensuring business-critical functions remain operational and intuitive.
+3. User Portal
+    * Designed an intuitive user experience facilitating:
+        * Efficient search, filter, and sort functionalities for food items
+        * Adding items to cart and customizing orders
+        * Smooth checkout process with order summary generation
+    * Ensured multi-device compatibility and responsiveness for enhanced customer reach.
 
-        3. Optimized the user portal by enabling efficient searching, filtering, and sorting of food items, and integrating a smooth cart and payment process, resulting in a         responsive, multi-device compatible interface.
+Problem Statement
+Food Box, established in 2014, experienced a decline in sales since 2016 due to competition from online aggregators. To counter this, they aimed to build a direct-to-customer web application to increase profitability by eliminating middlemen. As the Full Stack Java Developer, I was responsible for designing and developing this solution based on their detailed business requirements.
 
-Problem Statement:
-Foodbox is a restaurant chain that delivers food items of different cuisines at affordable prices. It was established in 2014 in Bengaluru, India. It had been serving fine all these years, however, the business analysts noticed a decline in sales since 2016. They found out that the online ordering of food items with companies, such as Swiggy and Foodpanda were gaining more profit by eliminating middlemen from the equation. As a result, the team decided to hire a Full Stack developer to develop an online food delivery web application with a rich and user-friendly interface. You are hired as the Full Stack Java developer and are asked to develop the web application. The management team has provided you with the requirements and their business model so that you can easily arrange different components of the application.
+Core Features Implemented
+✅ User Registration & Login ✅ Payment Gateway Integration ✅ Food Item Search, Filter, and Sort ✅ Dynamic Data Management ✅ Responsive UI compatible across devices ✅ Admin Portal for:
+* Adding/removing cuisines
+* Editing food item details
+* Enabling/disabling items ✅ User Portal for:
+* Browsing and ordering food items
+* Cart management
+* Order summary post-purchase
 
-Features of the application:
-1. Registration
-2. Login
-3. Payment gateway
-4. Searching
-5. Filtering
-6. Sorting
-7. Dynamic data
-8. Responsive and compatible with different devices
+Technologies & Tools Used
+* Backend: Java, Spring Boot, JPA, MySQL
+* Frontend: React.js, Redux, Bootstrap, HTML, CSS
+* API Testing: Postman
+* Version Control: GitHub
+* Exception Handling and Best Coding Practices
 
-Admin Portal:
-        The admin portal deals with all the backend data generation and product information. The admin user should be able to:
-
-Add or remove different cuisines to or from the application to build a rich product line
-Edit food item details like name, price, cuisine, description, and offers to keep it aligned to the current prices
-Enable or disable the food items
-
-User Portal:
-It deals with the user activities. The end-user should be able to:
-Sign-in to the application to maintain a record of activities
-Search for food items based on the search keyword
-Apply filters and sort results based on different cuisines to get the best deals
-Add all the selected food items to a cart and customize the purchase at the end
-Perform a seamless payment process
-Get an order summary details page once the payment is complete
-How to use this project?
-
-
-Core Concepts Used in the Project
-
-•	1. Spring Boot
-•	2. JPA
-•	3. Postman
-•	4. Exception Handling
-•	5. React
-•	6. Bootstrap, HTML, CSS
-•	7. Redux
-•	8. Java
-•	9. MySQL database
-•	10. GitHub
-
-
-Clone the project on your local machine 
-- open Backend in Spring Boot 
-- open frontend in vscode
-
-
-1- First Step - start the server in the Backend project in spring boot 
-2 -  Check All the API in postman , Working or Not 
-3 - After that  Change the directory to Frontend 
-        run - npm install 
-              After install all the modules 
-        
-        run - npm start 
-            You Application will start on Browser :
-                 (note: must install react chrome extension to run you react application)
-
-
-
+Setup & Usage Instructions
+1. Clone the project to your local machine.
+2. Backend Setup:
+    * Open the backend project in your IDE (e.g., Eclipse or IntelliJ).
+    * Start the Spring Boot server.
+    * Test all APIs using Postman to ensure functionality.
+3. Frontend Setup:
+    * Navigate to the frontend directory.
+    * Run npm install to install all dependencies.
+    * Execute npm start to launch the application in your browser.
+Note: Install the React Chrome extension for optimal development and debugging experience.
