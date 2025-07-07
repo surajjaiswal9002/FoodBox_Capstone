@@ -1,0 +1,25 @@
+Project Overview
+Developed the backend services for a full-stack food delivery web application aimed at enabling Food Box, a Bengaluru-based restaurant chain, to establish its own online ordering platform and improve profitability by bypassing third-party aggregators.
+
+Key Responsibilities
+1. API Development
+    * Designed and implemented RESTful APIs using Spring Boot to handle user registration, login authentication, food item management, cart operations, and order processing.
+2. Database Integration
+    * Integrated MySQL database with Spring Data JPA for persistent storage of users, food items, orders, and admin configurations.
+3. Admin Portal Backend
+    * Built endpoints to support:
+        * Adding, editing, and disabling food items
+        * Updating prices, cuisines, descriptions, and offers dynamically
+4. Security & Exception Handling
+    * Implemented authentication and authorization mechanisms for secure access.
+    * Developed global exception handling for robust API responses.
+5. Testing & Validation
+    * Used Postman extensively to test and validate all APIs for functional correctness and error handling.
+
+Technologies Used
+* Programming Language: Java
+* Framework: Spring Boot
+* ORM: Spring Data JPA
+* Database: MySQL
+* API Testing: Postman
+* Version Control: GitHub
